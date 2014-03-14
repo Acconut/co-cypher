@@ -8,7 +8,7 @@ co(function*() {
   var client = yield cypher.createClient("http://localhost:7474");
   
   console.log("it should query");
-  var result = yield client.query("RETURN 42 AS solution");
+  var result = yield client.query("CREATE(r) RETURN 42 AS solution");
   
   assert.deepEqual(result, {
     columns: [ "solution" ],

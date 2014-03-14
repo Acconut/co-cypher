@@ -1,4 +1,4 @@
-co-cypher
+co-cypher [![Build Status](https://travis-ci.org/Acconut/co-cypher.png?branch=master)](https://travis-ci.org/Acconut/co-cypher)
 -------
 
 ... is a wrapper around [node-cypher](https://npmjs.org/package/node-cypher) which provides thunks in order to use with [co](https://www.npmjs.org/package/co).
