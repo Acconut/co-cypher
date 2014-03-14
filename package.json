@@ -1,0 +1,29 @@
+{
+  "name": "co-cypher",
+  "version": "0.0.0",
+  "description": "co interface for node-cypher",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Acconut/co-cypher"
+  },
+  "keywords": [
+    "neo4j",
+    "co",
+    "cypher"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Acconut/co-cypher/issues"
+  },
+  "homepage": "https://github.com/Acconut/co-cypher",
+  "dependencies": {
+    "node-cypher": "0.x.x"
+  },
+  "devDependencies": {
+    "co": "~3.0.4"
+  }
+}
