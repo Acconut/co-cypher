@@ -1,6 +1,6 @@
 {
   "name": "co-cypher",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "co interface for node-cypher",
   "main": "index.js",
   "scripts": {
