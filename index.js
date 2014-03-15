@@ -23,7 +23,7 @@ exports.createClient = function(host, clientOpts) {
   
   return function(done) {
     cypher.createClient(host, clientOpts, function(err, client) {
-      patchClient(client);
+      if(!err) patchClient(client);
       done(err, client);
     });
   };
